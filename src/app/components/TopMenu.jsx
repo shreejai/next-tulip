@@ -1,9 +1,10 @@
+'use client';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-const Navbar1 = () => {
+const TopMenu = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -31,4 +32,4 @@ const Navbar1 = () => {
   )
 }
 
-export default Navbar1
+export default TopMenu;
