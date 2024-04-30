@@ -5,6 +5,16 @@ body{
   background-color: rgba(12, 11, 9, 0.6) !important;
   border-bottom: 1px solid;
 }
+#heroSlider .bgStyle {
+  height: 90dvh;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-item img{
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
 .navLogo, .navLogo:visited{
   color: #fff;
 }
